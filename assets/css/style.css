@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     line-height: 1.6;
     background-color: hsl(30, 54%, 90%);
     min-height: 100vh;
@@ -13,7 +16,29 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    color: hsl(24, 5%, 18%);
 }
+
+@media only screen and (max-width: 700px) {
+    body {
+      display: block;
+    }
+  }
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+  }
+
+
+p {
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  }
 
 .content-wrapper {
     background: white;
@@ -21,5 +46,66 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px 0;
+    width: 700px;
+    padding: 40px;
+    margin-top: 75px;
+}
+
+.hero-image {
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+    .content-wrapper {
+      width: 100%;
+      border-radius: 0;
+      margin-top: 0px;
+    }
+
+    .hero-image {
+        width: 100%; /* Set the width to 100% for full width */
+        border-radius: 0; /* Remove border-radius */
+    }
+  }
+
+  .title {
+    color: black;
+  }
+
+.preparation {
+    padding-left: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding-top: 25px;
+}
+
+.preparation h2 {
+    color: hsl(332, 51%, 32%)
+}
+
+.prep-list {
+    padding-left: 40px;
+    padding-bottom: 25px;
+    line-height: 200%;
+}
+
+.prep-list li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-list li {
+    padding-left: 20px;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients li {
+    padding-left: 20px;
+}
+
+.ingredients {
+    padding-left: 20px;
 }
 
