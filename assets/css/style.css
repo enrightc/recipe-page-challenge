@@ -33,7 +33,7 @@ h1, h2 {
   }
 
 
-p {
+p, ul {
     font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -45,14 +45,15 @@ p {
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    gap: 20px 0;
+    gap: 30px 0;
     width: 700px;
-    padding: 40px;
-    margin-top: 75px;
+    margin: 75px 0;
 }
 
 .hero-image {
     border-radius: 25px;
+    margin: 40px 40px 0 40px;
+    
 }
 
 @media only screen and (max-width: 700px) {
@@ -65,7 +66,16 @@ p {
     .hero-image {
         width: 100%; /* Set the width to 100% for full width */
         border-radius: 0; /* Remove border-radius */
+        margin: 0;
     }
+  }
+
+  .article-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    padding: 0 40px 40px 40px;
   }
 
   .title {
