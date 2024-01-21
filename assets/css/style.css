@@ -89,8 +89,9 @@ p, ul {
     padding-top: 25px;
 }
 
-.preparation h2 {
-    color: hsl(332, 51%, 32%)
+.prep-title {
+    color: hsl(332, 51%, 32%);
+    font-size: 16px;
 }
 
 .prep-list {
@@ -111,11 +112,32 @@ p, ul {
     color: hsl(14, 45%, 36%);
 }
 
-.ingredients li {
-    padding-left: 20px;
-}
 
 .ingredients {
     padding-left: 20px;
 }
 
+.instructions  {
+    padding-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+ tr {
+    border-bottom: 1px solid lightgray;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.value {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+hr {
+   color: lightgray;
+}
