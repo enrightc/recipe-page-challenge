@@ -32,7 +32,6 @@ h1, h2 {
   color: hsl(14, 45%, 36%);
   }
 
-
 p, ul {
     font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -111,7 +110,6 @@ p, ul {
 .ingredients li::marker {
     color: hsl(14, 45%, 36%);
 }
-
 
 .ingredients {
     padding-left: 20px;
