@@ -30,9 +30,10 @@ h1, h2 {
   font-weight: 400;
   font-style: normal;
   color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
   }
 
-p, ul {
+p, ul, ol, td {
     font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -60,6 +61,7 @@ p, ul {
       width: 100%;
       border-radius: 0;
       margin-top: 0px;
+      margin-bottom: 0px;
     }
 
     .hero-image {
